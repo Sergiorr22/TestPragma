@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         glue = "org/pragmaTest/definitions",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
         plugin = "pretty",
-        tags = "@conjunto"
+        tags = "@E2E"
 )
 public class Runner {
 }
